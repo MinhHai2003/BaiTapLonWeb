@@ -1,0 +1,162 @@
+#Container_Menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1432px;
+    height: 60px;
+   
+}
+
+.Menu_left{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 30px;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    top: 16px;
+    left:128px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Menu_right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    position: relative;
+    left: 996px;
+    bottom: 16px;
+    width: 300px;
+    height: 30px;
+}
+
+#container_1{
+    display: flex;
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+    width: 1440px; 
+    height: 354px; 
+    background: #FFFFFFFF;
+    border-radius: 0px; 
+}
+
+.container_1_text1{
+    position: absolute;
+    top: 50px;
+    left: 158px;
+    width: 280px;
+    height: 50px;
+    background-color: aquamarine;
+    font-size: 52px;
+}
+
+.container_1_txt{
+    position: absolute;
+    top: 160px;
+    left: 158px;
+    width: 710px;
+    height: 50px;
+    background-color: aquamarine;
+    font-size: 20px;
+    background-color:aqua;
+}
+
+.container_1_image{
+    position: absolute;
+    top: 47px;
+    left: 1115px;
+}
+
+#container_2{
+    display: flex;
+    width: 1443px;
+    height: 1035px;
+}
+
+#layer1{
+    display: flex;
+    width: 1176px;
+    height: 407px;
+    background-color:#DFFBD0;
+    position: absolute;
+    left: 128px;
+    border-radius:  4px 4px 4px 4px  ;
+}
+
+.container_2_text{
+    position: absolute;
+    left: 45px;
+    top: 50px;
+    font-size: 16px;
+}
+
+.container_2_text1{
+    position: absolute;
+    top: 10px;
+    width: 250px;
+}
+
+.container_2_text2{
+    position: absolute;
+    top: 70px;
+    width: 400px;
+}
+
+.container_2_Image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 690px;
+    height: 407px;
+    position: absolute;
+    left: 465px;
+}
+
+.container_2_Image_center{
+    position: relative;
+    bottom: 22px;
+}
+
+.container_2_text3{
+    position: relative;
+    top: 200px;
+}
+
+#layer2{
+    display: flex;
+    width: 1176px;
+    height: 407px;
+    background-color:#FFE1E7;
+    position: absolute;
+    top: 900px;
+    left: 128px;
+    border-radius:  4px 4px 4px 4px  ;
+}
+
+.container_2_Image_layer2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 690px;
+    height: 407px;
+    position: absolute;
+    left: 465px;
+
+}
+
+.layer2_image29{
+    position: relative;
+    top: 30px;
+
+}
+
+.layer2_image31{
+    position: relative;
+    bottom: 30px;
+}
+
+
+
