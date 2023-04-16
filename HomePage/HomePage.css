@@ -69,8 +69,8 @@
     display: flex;
     position: absolute;
     font-size: 16px;
-    right: 936px;
-    top:500px;
+    right: 910px;
+    top:480px;
 }
 
 .container1_text2{
@@ -212,8 +212,86 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 1443px;
-    height: 432px;
-    background-color: aquamarine;
+    width: 1520px;
+    height: 1000px;
+    background-color: #F6FBF0FF;
+   
 }
 
+
+
+#container_5{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1520px;
+    height: 421px;
+    background-color: #1D2128FF;
+}
+
+.container5_text5{
+    position: absolute; 
+    top :3320px;
+    right: 900px;
+    width: 466px; 
+    height: 148px; 
+    font-family: Sarabun; 
+    font-size: 52px; 
+    line-height: 74px; 
+    color: #FFFFFFFF; 
+}
+
+.form-group{
+    width: 588px;
+    height: 48px;
+    position: absolute;
+    top :3320px;
+    right: 200px;
+    background-color: #1D2128FF;
+}
+
+
+.form-group1{
+    width: 588px;
+    height: 200px;
+    position: absolute;
+    top :3400px;
+    right: 200px;
+}
+
+.btn{
+    width: 173px;
+    height: 52px;
+    position: absolute;
+    top :3490px;
+    right: 610px;
+}
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    top :3510px;
+    right: 1170px;
+}
+
+.container5_text6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 3560px;
+    right: 1020px;
+}
+
+.text6{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+    height: 30px;
+    color: white;
+}
