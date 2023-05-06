@@ -6,15 +6,19 @@
     <link rel="stylesheet" href="About_me.css">
     <title>About me</title>
     
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </head>
 <body>
     <div id="TieuDe">
         <div><img src="Image Icon/Name-folio.png" alt=""></div>
         <div style="display: flex; flex-direction: row; justify-content: space-around;width: 310px; margin-right: 130px;font-size: 20px; margin-top: 10px;">
-            <div><b>Work</b></div>
-            <div style="color: rgb(252, 55, 87);"><b>About me</b></div>
-            <div><b>Blog</b></div>
-            <div><b>Contact</b></div>
+            <button type="button" class="btn btn-default"><b>Work</b></button>
+            <button type="button" class="btn btn-default"><b>About me</b></button>
+            <button type="button" class="btn btn-default"><b>Blog</b></button>
+            <button type="button" class="btn btn-default"><b>Contact</b></button>
         </div>
     </div>
     <br><br>
@@ -121,17 +125,15 @@
                 <p>&#169; 2022 Brand, Inc. &#8901; Privacy &#8901; Terms &#8901; Sitemap</p>
             </div>
             <div id="Bot_Right" style="margin-left: 50px;margin-top: 30px;">
-                
-                    <b>Email</b>
-                    <br>
-                    <div style="display: flex; border: 1px solid;width: 540px;height: 50px ; border-radius: 1px;">Your email address</div>
-                    <br>
-                    <b>Input your message</b>
-                    <br>
-                    <div style="display: flex; border: 1px solid;width: 540px;height: 105px ; border-radius: 1px;">Describe your project</div>
-                    <br>
-                    <div style="display: flex; justify-items: center;border: 1px solid; border-radius: 1px;background-color: rgb(255, 68, 99); width: 183px; height: 53px; font-size: 20px; color: white;">Submit</div>
-                
+                <div class="form-group">
+                    <label for="usr">Email:</label>
+                    <input type="text" class="form-control" id="usr" placeholder="Your email address">
+                </div>
+                <div class="form-group">
+                    <label for="comment">Input your message:</label>
+                    <textarea class="form-control" rows="5" id="comment" placeholder="Describe your project"></textarea>
+                </div>
+                <button type="button" class="btn btn-default" style="background-color:  rgb(255, 68, 99); color: white;">Submit</button>
             </div>
         </div>
     </div>
